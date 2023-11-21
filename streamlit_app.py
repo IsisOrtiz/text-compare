@@ -13,10 +13,10 @@ def calcular_similaridade(texto1, texto2):
 # Exemplo de uso
 st.title('Comparação de textos!')
 st.title(':blue[Isis] :sunglasses:')
-texto1 =  st.text_input(
+texto1 =  st.text_area(
     "Entre com o primeiro texto 👇",
 )
-texto2 =  st.text_input(
+texto2 =  st.text_area(
     "Entre com o segundo texto 👇",
 )
 
